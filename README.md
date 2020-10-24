@@ -14,7 +14,14 @@ This project consists of 2 major parts: the fraud detection analysis notebook an
 The fraud detection analysis contains 4 sections: 
 * Data Cleaning; 
 * Feature Engineering;
-* Fraud Detection Modelling - lightGBM & XGBoost;
+  - Missing values analysis
+  - Dimensionality Reduction 
+      1. for categorical variables, merge small levels 
+      2. for numerical variables, PCA
+* Fraud Detection Modelling
+  - lightGBM;
+  - XGBoost;
+  - Hyperparameter fine-tuning + cross validation
 * Feature Mmportance Analysis. 
 
 ### Dash App Screenshot
